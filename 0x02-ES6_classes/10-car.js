@@ -1,11 +1,9 @@
 /* eslint-disable no-underscore-dangle */
-const carSymbol = Symbol('Car');
 export default class Car {
   constructor(brand, motor, color) {
     this._brand = brand;
     this._motor = motor;
     this._color = color;
-    this[carSymbol] = Car;
   }
 
   get brand() {
@@ -32,8 +30,8 @@ export default class Car {
     this._color = value;
   }
 
-  cloneCar(){
-    // Create a new instance of the class using the symbol
-    return new this[carSymbol](this._brand, this._motor, this._color);
+  cloneCar() {
+    // Create a new instance of the class
+    return new this.constructor();
   }
 }
