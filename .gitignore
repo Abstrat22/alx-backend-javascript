@@ -6,3 +6,4 @@ package.json
 .eslintrc.js
 test
 package-lock.json
+main.js
