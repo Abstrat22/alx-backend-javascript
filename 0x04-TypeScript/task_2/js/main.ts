@@ -47,7 +47,7 @@ function executeWork(employee: Teacher | Director): void{
     }
 }
 
-type Subjects = 'Math' | 'History'; // a string litral type
+type Subjects = 'Math' | 'History'; // utilizing union to create a string litral type
 
 function teachClass(todayClass: Subjects): string{
     if(todayClass === 'Math'){
