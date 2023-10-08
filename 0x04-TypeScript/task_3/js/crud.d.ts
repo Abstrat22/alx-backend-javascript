@@ -1,6 +1,6 @@
 import {RowID, RowElement} from './interface';
 /**
- * Ambient declaration for the crude module types
+ * Ambient declaration to provide type information for the crude module
  */
 
 declare function insertRow(row: RowElement): number;     
