@@ -5,7 +5,7 @@ process.stdout.write('Welcome to Holberton School, what is your name?\n');
 process.stdin.on('data', (data) => {
   // Convert the received data to a string and remove leading/trailing whitespaces
   const name = data.toString().trim();
-W
+
   // Write a message to the standard output with the provided name
   process.stdout.write(`Your name is: ${name}\n`);
 
