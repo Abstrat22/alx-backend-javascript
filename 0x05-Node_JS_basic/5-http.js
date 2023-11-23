@@ -88,7 +88,8 @@ const app = http.createServer((request, response) => {
         response.end(outString);
       })
       .catch(() => {
-        // If an error occurs during data processing, set the status code to 404 and respond accordingly
+        // If an error occurs during data processing, set the status
+        // code to 404 and respond accordingly
         response.statusCode = 404;
         response.end('Cannot load the database');
       });

@@ -6,7 +6,7 @@ function countStudents(fileName) {
   // Initialize two empty objects to store student information and field counts
   const students = {};
   const fields = {};
-  
+
   // Initialize a variable to keep track of the number of lines (students) in the file
   let length = 0;
 

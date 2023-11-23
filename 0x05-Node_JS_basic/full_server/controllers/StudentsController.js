@@ -55,4 +55,3 @@ class StudentsController {
 
 // Export the 'StudentsController' class for use in other modules
 module.exports = StudentsController;
-
