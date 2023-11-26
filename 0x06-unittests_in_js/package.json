@@ -1,0 +1,22 @@
+{
+  "name": "0x06-unittests_in_js",
+  "version": "1.0.0",
+  "description": "Unitests project with mocha",
+  "main": "0-calcul.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/francis-anane/alx-backend-javascript.git"
+  },
+  "author": "Francis Ofori Anane",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/francis-anane/alx-backend-javascript/issues"
+  },
+  "homepage": "https://github.com/francis-anane/alx-backend-javascript#readme",
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  }
+}

@@ -2,7 +2,6 @@
 #
 node_modules
 babel.config.js
-package.json
 .eslintrc.js
 test
 package-lock.json
