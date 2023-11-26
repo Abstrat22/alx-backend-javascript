@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/francis-anane/alx-backend-javascript#readme",
   "devDependencies": {
+    "chai": "^4.3.10",
     "mocha": "^10.2.0"
   }
 }
